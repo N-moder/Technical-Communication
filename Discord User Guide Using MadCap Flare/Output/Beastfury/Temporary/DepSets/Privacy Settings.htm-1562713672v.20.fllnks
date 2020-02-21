@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/1B_.jpg" />
+    <Link
+      Url="Content/Resources/Images/2B_.png" />
+    <Link
+      Url="Content/Resources/Images/bp3.png" />
+    <Link
+      Url="Content/Resources/Images/3b_.jpg" />
+    <Link
+      Url="Content/Resources/Images/4b_.png" />
+    <Link
+      Url="Content/Resources/Images/5b_.jpg" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/1B_.jpg" />
+    <Link
+      Url="Content/Resources/Images/2B_.png" />
+    <Link
+      Url="Content/Resources/Images/bp3.png" />
+    <Link
+      Url="Content/Resources/Images/3b_.jpg" />
+    <Link
+      Url="Content/Resources/Images/4b_.png" />
+    <Link
+      Url="Content/Resources/Images/5b_.jpg" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

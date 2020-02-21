@@ -1,0 +1,360 @@
+.top-bar{
+    width: 100%; 
+    background-color:darkturquoise; 
+    color: white; 
+    height: 100px; 
+    position:relative;
+  display: flex;
+}
+
+.top-bar span{
+    font-size:30px;
+    cursor:pointer;
+    width: 60px;
+    height: 69px;
+    display: inline-block;
+   /* border-width:thin;
+    border-style: solid;
+    border-color:aliceblue; */
+    padding: 29px 0px 0px 30px;
+    
+}
+.top-bar a{
+    margin-left: 45%;
+    line-height: 100px;
+    vertical-align: middle;
+    color: white;
+    position: absolute;
+    font-family: cursive;
+    display:inline-block;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:darkturquoise ;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color:aliceblue;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color:black;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  
+}
+
+
+@media screen and (max-height: 450px)(max-width: 400px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+    .image img {width:300px; height: 150px;}
+}
+
+@media only screen and (){
+   
+}
+
+.cookpad-logo{
+    text-decoration: none; 
+    font-size: 1.8em;
+}
+
+.image img{
+    align-content: center;
+    width: 300px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.image{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.form-wrapper{
+    height: auto;
+    width: 300px;
+    margin-left:auto;
+    margin-right: auto;
+    overflow: hidden;
+    display: block;
+    background-color:whitesmoke;
+}
+
+.form-wrapper p, h2{
+    text-align: center;
+   
+}
+
+/*input[type=text],input[type=password]{
+    font-size: 20px;
+    margin: 10px 10px;
+    padding: 10px 30px
+}
+*/
+h2,p{
+    color:cadetblue;
+}
+
+.button1 {
+  background-color:coral;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    float:right;
+}
+.button2 {
+  background-color:coral;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    float:left;
+}
+
+.button3 {
+  background-color:coral;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=checkbox]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Cookpad a {
+     position: relative;
+    display: inline-block;
+}
+
+.Cookpad a span{
+    text-align: center;
+    font-size:30px;
+    color: white;
+    height: 69px;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -1em;
+    margin-left: -50%;
+    width: 100%;
+    height: 2em;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.Cookpad img{
+    width: 400px;
+    height: 200px;
+}
+
+.Explore a {
+     position: relative;
+    display: inline-block;
+}
+
+.Explore a span{
+    text-align: center;
+    font-size:30px;
+    color: white;
+    height: 69px;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -1em;
+    margin-left: -50%;
+    width: 100%;
+    height: 2em;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.Explore img{
+    width: 400px;
+    height: 200px;
+}
+
+.surpriseme a {
+     position: relative;
+    display: inline-block;
+}
+
+.surpriseme a span{
+    text-align: center;
+    font-size:30px;
+    color: white;
+    height: 69px;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -1em;
+    margin-left: -50%;
+    width: 100%;
+    height: 2em;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.surpriseme img{
+    width: 400px;
+    height: 200px;
+}
+
+.navigation-search input[type=text], input[type=button]{
+    display: inline-block;
+}
+
+.recipe p{
+    color: black;
+    
+}
+
+.sidecontainer
+{
+    width: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidecontainer .card
+{
+    position: relative;
+}
+
+.sidecontainer .card .face
+{
+  width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.sidecontainer .card .face .face1
+{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateX(100px);
+}
+
+.sidecontainer .card:hover .face .face1
+{
+    background: #ff0057;
+    transform: translateY(0);
+}
+.sidecontainer .card .face .face2
+{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+    transform: translateX(-100px);
+}
+
+.sidecontainer .card:hover .face .face2
+{
+   transform: translateX(0px); 
+}
+
+.sidecontainer .card .face .face2 .content p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.sidecontainer .card .face .face2 .content a
+{
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    padding: 5px;
+    border: 1px solid #333;
+}
+.sidecontainer .card .face .face2 .content a:hover
+{
+    background: #333;
+    color: #fff;
+}
+
+.sidecontainer .card .face .face1 .content
+{
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.sidecontainer .card:hover .face .face1 .content
+{
+    opacity: 1;
+}
+
+sidecontainer .card .face .face1 .content img
+{
+    max-width: 100px;
+}
+
+>container .card .face .face1 .content h4
+{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}

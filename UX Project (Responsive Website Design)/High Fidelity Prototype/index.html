@@ -1,0 +1,114 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="CSS/main.css">     
+  </head>
+  <body>
+     <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">My Profile</a>
+        <a href="#">Settings</a>
+        <a href="#">Privacy</a>
+        <a href="#">Log Out</a>
+        <a href="API/API.html">About API</a>
+    </div> 
+      <header class="top-bar">
+   
+            <span onclick="openNav()">&#9776;</span>
+            <a class="cookpad-logo" href="index.html">
+                COOKPAD
+            </a>
+       
+      </header>
+
+      
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h1>Welcome to CookPad</h1>
+        </div>
+      </div>
+
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 medium-10 cell">
+          <div class="callout">
+            <h3>We&rsquo;re here to help you Cook new Stuff! </h3>
+              <img src="images/Home-Banner-2.jpg">
+                </div>
+          </div>
+        </div>
+      </div>
+      
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+            <div class="large-12 medium-10 cell">
+                <h4>Create Account</h4>
+            <div class="callout">
+                <form>
+                <div class="large-4 medium-4 cell">
+                    <div class="grid-x">
+                      <label>Email</label>
+                      <div class="input-group">
+                        <input type="text" placeholder="" class="input-group-field" />
+                        <span class="input-group-label">.com</span>
+                      </div>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                  <div class="large-12 cell">
+                    <label>User name</label>
+                    <input type="text" placeholder="" />
+                  </div>    
+                </div>
+                <div class="grid-x grid-padding-x">
+                  <div class="large-12 cell">
+                    <label>Password</label>
+                    <input type="password" placeholder="" />
+                  </div>    
+                </div>
+                <div class="grid-x grid-padding-x">
+                  <div class="large-12 cell">
+                    <label>Gender</label>
+                    <select>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-4 medium-4 small-4 cell">
+                      <p><a href="categories.html" class="button">Sign In</a>
+                        <a href="categories.html" class="success button">Sign Up</a>
+
+                    </div>
+                </div>
+                </form>
+            </div>
+            </div>
+        </div>
+      </div>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+           // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+            // document.body.style.backgroundColor = "white";
+        }
+    </script>  
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

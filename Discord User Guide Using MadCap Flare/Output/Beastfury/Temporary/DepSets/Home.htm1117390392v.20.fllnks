@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileClass="home-page"
+  FileSearchable="false"
+  MasterPage="file:///C:/Users/Beastfury/Desktop/TCN706_HardikMistry/Discord User Guide/Content/Resources/MasterPages/HomePage.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/HomePage.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Content/B_Feature Topics/Profile.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/Services-black.png" />
+    <Link
+      Url="Content/C_Procedure Topics/Uploadmedia.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-black.png" />
+    <Link
+      Url="Content/B_Feature Topics/VoiceChat.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/Hello-black.png" />
+    <Link
+      Url="Content/D_More Information/How to Use Nitro.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-black.png" />
+    <Link
+      Url="Content/Communityevents.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/Notes-black.png" />
+    <Link
+      Url="Content/B_Feature Topics/Chatroom.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/FAQs-black.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/HomePage.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Content/B_Feature Topics/Profile.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/Services-black.png" />
+    <Link
+      Url="Content/C_Procedure Topics/Uploadmedia.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/SharedFiles-black.png" />
+    <Link
+      Url="Content/B_Feature Topics/VoiceChat.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/Hello-black.png" />
+    <Link
+      Url="Content/D_More Information/How to Use Nitro.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/ManageListsandFAQs-black.png" />
+    <Link
+      Url="Content/Communityevents.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/Notes-black.png" />
+    <Link
+      Url="Content/B_Feature Topics/Chatroom.htm" />
+    <Link
+      Url="Content/Resources/Images/Assets/Icons/MainIcons/FAQs-black.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/StylesForHomePage.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

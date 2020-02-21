@@ -1,0 +1,176 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="CSS/main.css">       
+  </head>
+  <body>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">My Profile</a>
+        <a href="index.html">Log In</a>
+        <a href="#">Settings</a>
+        <a href="#">Privacy</a>
+        <a href="#">Log Out</a>
+        <a href="API/API.html">About API</a>
+    </div> 
+      <header class="top-bar">
+   
+            <span onclick="openNav()">&#9776;</span>
+            <a class="cookpad-logo" href="main.html">
+                COOKPAD
+            </a>
+       
+      </header>
+
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <form  onsubmit="myfunction()">
+            <div class="grid-x grid-padding-x">
+                <div class="large-8 medium-6 small-8 cell">
+                   <br/>
+                    <input type="text" placeholder="Search Here" />
+                </div>  
+                <div class="large-4 medium-4 small-4">
+                    <br />
+                    <input type="submit" name="button1" class="button" value="search"  >
+                </div>
+            </div>
+            </form>
+           <!-- </form>
+            <form onsubmit="secondfunction()">
+            <input type="submit" name="button2" class="button">
+            </form>-->
+        </div>
+      </div>
+      <div class="grid-x grid-padding-x">
+        <div class="large-8 cell">
+          <div class="callout">
+            <h2>Upload Your Recipe</h2>
+               <p><a href="#" class="button">UPLOAD</a>
+            </div>
+          </div>
+        <div class="large-8 medium-8 cell">
+          <div class="callout">
+            <h3>News Feed!! </h3>
+              <div class="grid-x grid-padding-x">
+              
+              <div class="large-12 medium-8 cell">
+                  <div class="callout">
+                      <p><a href="#">Sarah</a><br />Chiken butter masala</p><p><a href="">Recipe Page Link</a></p>
+                </div>
+              </div>
+              <div class="large-12 medium-8 cell">
+                  <div class="callout">
+                      <p><a href="#">Mike</a><br />Mashroom Potine</p><p><a href="">Recipe Page Link</a></p>
+                      </div>
+              </div>
+              <div class="large-12 medium-8 cell">
+                  <div class="callout">
+                    <p><a href="#">Sam</a><br />Blue berry Pudding</p><p><a href="">Recipe Page Link</a></p>
+                  </div>
+              </div>
+              <div class="large-12 medium-8 cell">
+                  <div class="callout">
+                    <p><a href="#">Tim</a><br />Ramen Noodels</p><p><a href="">Recipe Page Link</a></p>
+                  </div>
+              </div>
+              <div class="large-12 medium-8 cell">
+                  <div class="callout">
+                      <p><a href="#">Nancy</a><br />Egg Curry</p><p><a href="">Recipe Page Link</a></p>
+                  </div>
+              </div>
+              <div class="large-12 medium-8 cell">
+                  <div class="callout">
+                      <p><a href="#">Michelle</a><br />Chocolate Cookies</p><p><a href="">Recipe Page Link</a></p>
+                  </div>
+              </div>
+              <div class="large-12 medium-8 cell">
+                  <div class="callout">
+                    <p><a href="#">Savanah</a><br />Roasted Chicken soft Tacos</p><p><a href="">Recipe Page Link</a></p>
+                  </div>
+              </div>
+              <div class="large-12 medium-8 cell">
+                  <div class="callout">
+                    <p><a href="#">Monty</a><br />Creamy Chicken Lasagna</p><p><a href="">Recipe Page Link</a></p>
+                  </div>
+              </div>  
+            </div>
+          </div>
+        </div>
+          <div class="large-4 medium-4 cell">
+          <div class="callout">
+           <div class="sidecontainer">
+                <div class="content">
+                   <img src="images/Explore.gif">
+                    <h4>Explore</h4>
+                   </div>
+                </div>
+                    <div class="content">
+                        <p>Explore Recipes with different categories.</p>
+                        <a href="Explore.html" class="button">Click Here!!</a>
+                   </div>
+                </div> 
+              <div class="callout">
+                <div class="content">
+                   <img src="images/Surpriseme.gif">
+                    <h4>Surprise Me!!</h4>
+                   </div>
+               
+                    <div class="content">
+                        <p>Surprise Me!! will give you new random Recipes.</p>
+                        <a href="Surpriseme.html" class="button">Click Here!!</a>
+                   </div>
+                </div>
+               <div class="callout">   
+                <div class="content">
+                   <img src="images/CookPad.gif">
+                    <h4>CookPad</h4>
+                   </div>
+                    <div class="content">
+                        <p>CookPad will help you out with what you can make with what you have.</p>
+                        <a href="cookpad.html" class="button">Click Here!!</a>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+     <script>
+         function secondfunction()
+         {
+             var txt;
+             if (confirm("Press button!")){
+                 txt ="Button pressed";
+             }
+             else{
+                 txt = "you pressed cancel";
+             }
+         }
+         function myfunction()
+         {
+            alert("You Pressed Search button")
+         }
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+           // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+            // document.body.style.backgroundColor = "white";
+        }
+    </script>    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

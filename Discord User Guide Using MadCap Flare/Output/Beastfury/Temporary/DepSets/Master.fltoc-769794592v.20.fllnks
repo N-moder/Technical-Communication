@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/A_Introduction Topics/Getting Started.htm" />
+    <Link
+      Url="Content/A_Introduction Topics/Announcement.htm" />
+    <Link
+      Url="Content/A_Introduction Topics/F.A.Q.s.htm" />
+    <Link
+      Url="Content/B_Feature Topics/Features.htm" />
+    <Link
+      Url="Content/B_Feature Topics/Feature1.htm" />
+    <Link
+      Url="Content/B_Feature Topics/Feature2.htm" />
+    <Link
+      Url="Content/B_Feature Topics/Feature3.htm" />
+    <Link
+      Url="Content/C_Procedure Topics/Procedures.htm" />
+    <Link
+      Url="Content/C_Procedure Topics/Createnewserver.htm" />
+    <Link
+      Url="Content/C_Procedure Topics/Uploadmedia.htm" />
+    <Link
+      Url="Content/C_Procedure Topics/Invitefriends.htm" />
+    <Link
+      Url="Content/D_More Information/Company Information.htm" />
+    <Link
+      Url="Content/D_More Information/FAQs.htm" />
+    <Link
+      Url="Content/D_More Information/PDF Downloads.htm" />
+    <Link
+      Url="Content/D_More Information/Tips.htm" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

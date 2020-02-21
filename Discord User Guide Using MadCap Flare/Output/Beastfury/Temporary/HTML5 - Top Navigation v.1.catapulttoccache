@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  DepSetCode="1729309865"
+  SavedSource="file:///C:/Users/Beastfury/Desktop/TCN706_HardikMistry/Discord User Guide/Output/Beastfury/Temporary/HTML5 - Top Navigation v.1.catapulttoccache">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/A_Introduction Topics/Getting Started.htm">
+    <TocEntry
+      Title="Announcements"
+      Link="/Content/A_Introduction Topics/Announcement.htm" />
+    <TocEntry
+      Title="F.A.Q.s"
+      Link="/Content/A_Introduction Topics/F.A.Q.s.htm"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ComputeToc="false"
+      ReplaceMergeNode="false" />
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/B_Feature Topics/VoiceChat.htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/B_Feature Topics/Chatroom.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/B_Feature Topics/Emotes.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/B_Feature Topics/Profile.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/C_Procedure Topics/Privacy Settings.htm">
+    <TocEntry
+      Title="Createnewserver"
+      Link="/Content/C_Procedure Topics/Createnewserver.htm" />
+    <TocEntry
+      Title="Invitefriends"
+      Link="/Content/C_Procedure Topics/Invitefriends.htm" />
+    <TocEntry
+      Title="Uploadmedia"
+      Link="/Content/C_Procedure Topics/Uploadmedia.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/D_More Information/Discord Nitro.htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/D_More Information/FAQs.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/D_More Information/PDF Downloads.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/D_More Information/Tips.htm" />
+  </TocEntry>
+</CatapultToc>

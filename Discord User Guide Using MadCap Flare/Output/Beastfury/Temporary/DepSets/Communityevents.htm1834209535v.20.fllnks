@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/Screen Shot 2018-08-16 at 2.28.06 PM.png" />
+    <Link
+      Url="Content/Resources/Images/Screen Shot 2018-08-15 at 11.14.17 PM.png" />
+    <Link
+      Url="Content/Resources/Images/Screen Shot 2018-08-15 at 11.43.49 PM.png" />
+    <Link
+      Url="Content/Resources/Images/Screen Shot 2018-08-15 at 11.36.16 PM.png" />
+    <Link
+      Url="Content/Resources/Images/HypeSquad House Info.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/Screen Shot 2018-08-16 at 2.28.06 PM.png" />
+    <Link
+      Url="Content/Resources/Images/Screen Shot 2018-08-15 at 11.14.17 PM.png" />
+    <Link
+      Url="Content/Resources/Images/Screen Shot 2018-08-15 at 11.43.49 PM.png" />
+    <Link
+      Url="Content/Resources/Images/Screen Shot 2018-08-15 at 11.36.16 PM.png" />
+    <Link
+      Url="Content/Resources/Images/HypeSquad House Info.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>
